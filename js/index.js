@@ -89,7 +89,7 @@
             },
             backOut: function(t, b, c, d, s){
                 if (typeof s == 'undefined') {
-                    s = 1.70158;
+                    s = 0.70158;
                 }
                 return c*((t=t/d-1)*t*((s+1)*t + s) + 1) + b;
             }
@@ -272,9 +272,11 @@
             }
             if(isY){
                 var eleEndPointY=cssTransform(ele,"translateY");
-                var speedY=everyTimeTouchMovedY/everyTimeTouchUseTimeY*100;
+                var speedY=everyTimeTouchMovedY/everyTimeTouchUseTimeY*200;
                 var Target=speedY+eleEndPointY;
-                var Time=Math.abs(speedY*2);
+                var Time=Math.abs(speedY/2);
+                console.log(Time);
+                Time=Time<400?400:Time;
                 var type="easeOut";
                 if(Target>0){
                     Target=0;
