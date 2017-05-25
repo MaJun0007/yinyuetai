@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/index.min.css">
+    <link rel="stylesheet" href="css/reset.min.css">
+    <script>
+        var pixclPatio = 1 / window.devicePixelRatio;
+        document.write('<meta name="viewport" content="width=device-width,initial-scale='+pixclPatio+',minimum-scale='+pixclPatio+',maximum-scale='+pixclPatio+',user-scalable=no" />');
+        var html = document.getElementsByTagName('html')[0];
+        var pageWidth = html.getBoundingClientRect().width;
+        html.style.fontSize = pageWidth / 16 + 'px';
+    </script>
+</head>
+<body>
+    <header id="header">
+        <header class="header_nav cl">
+            <div class="headerLeft fl">
+                <a href="" class="logo fl"></a>
+                <input type="button" class="channelBtn fl" value="">
+            </div>
+            <ul class="headerRight fr">
+                <li class="navSearchBtn">搜索</li>
+                <li>登录</li>
+                <li>注册</li>
+            </ul>
+        </header>
+        <div class="searchArea">
+            <input type="text" class="search fl" placeholder="请输入搜索内容">
+            <input type="button" class="searchBtn fr" value="搜索">
+        </div>
+    </header>
+    <div class="content">
+        <div class="wrap">
+            <nav id="nav">
+                <ul class="navList">
+                    <li class="active">
+                        <a href="javascript:void(0);" class="" data-tab="index">首页</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" data-tab="mv" class="">MV</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" data-tab="pl" class="">悦单</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" data-tab="vchart" class="">V榜</a>
+                    </li>
+                    <li><a href="http://zhongchou.yinyuetai.com/wap" class="">众筹</a></li>
+                    <li>
+                        <a href="http://www.yinyuetai.com/fanMass" data-tab="wapfan" class="">饭团</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" data-tab="program" class="">节目</a>
+                    </li><li>
+                    <a href="javascript:void(0);" data-tab="program" class="">节目</a>
+                </li>
+                    <li>
+                        <a href="javascript:void(0);" data-tab="stage" class="">音悦stage</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" data-tab="apps/mobile" class="">APP下载</a>
+                    </li>
+                    <li>
+                        <a href="http://news.yinyuetai.com/" target="_blank" class="">资讯</a>
+                    </li>
+                    <li>
+                        <a href="http://i.yinyuetai.com" target="_blank" class="selected">我的家</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" data-tab="apps" class="">热门应用</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="banner">
+                <ul class="bannerList">
+                    <li><a href=""><img src="img/img1.jpg" alt=""></a></li>
+                    <li><a href=""><img src="img/img2.jpg" alt=""></a></li>
+                    <li><a href=""><img src="img/img3.jpg" alt=""></a></li>
+                    <li><a href=""><img src="img/img4.jpg" alt=""></a></li>
+                </ul>
+                <ul class="bannerTips">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <section class="wrap_section">
+                <main class="mv">
+                    <h2 class="header">MV首播<a href="" class="more fr">更多</a></h2>
+                    <nav class="mv_nav">
+                        <ul class="mv_navList cl">
+                            <li><a href="">全部</a></li>
+                            <li><a href="">内地</a></li>
+                            <li><a href="">港台</a></li>
+                            <li><a href="">欧美</a></li>
+                            <li><a href="">韩国</a></li>
+                            <li><a href="">日本</a></li>
+                        </ul>
+                        <span class="mv_navTip"></span>
+                    </nav>
+                    <ul class="main_content">
+                        <li>
+                            <ul class="mv_all cl">
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="mv_mainland cl">
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="mv_HongKong&Taiwan cl">
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="mv_European cl">
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="mv_Korea cl">
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="mv_Japan cl">
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </main>
+            </section>
+            <section class="wrap_section">
+                <main class="tv">
+                    <h2 class="header">TV首播<a href="" class="more fr">更多</a></h2>
+                    <nav class="mv_nav">
+                        <ul class="mv_navList cl">
+                            <li><a href="">全部</a></li>
+                            <li><a href="">内地</a></li>
+                            <li><a href="">港台</a></li>
+                            <li><a href="">欧美</a></li>
+                            <li><a href="">韩国</a></li>
+                            <li><a href="">日本</a></li>
+                        </ul>
+                        <span class="mv_navTip"></span>
+                    </nav>
+                    <ul class="main_content cl">
+                        <li>
+                            <ul class="mv_all cl">
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="mv_mainland cl">
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="mv_HongKong&Taiwan cl">
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="mv_European cl">
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="mv_Korea cl">
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="mv_Japan cl">
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </main>
+            </section>
+            <section class="wrap_section">
+                <main class="hv">
+                    <h2 class="header">hV首播<a href="" class="more fr">更多</a></h2>
+                    <nav class="hv_nav">
+                        <ul class="hv_navList cl">
+                            <li><a href="">全部</a></li>
+                            <li><a href="">内地</a></li>
+                            <li><a href="">港台</a></li>
+                            <li><a href="">欧美</a></li>
+                            <li><a href="">韩国</a></li>
+                            <li><a href="">日本</a></li>
+                        </ul>
+                        <span class="hv_navTip"></span>
+                    </nav>
+                    <ul class="main_content cl">
+                        <li>
+                            <ul class="hv_all cl">
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="hv_mainland cl">
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="hv_HongKong&Taiwan cl">
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="hv_European cl">
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="hv_Korea cl">
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="hv_Japan cl">
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/img.jpg" alt="">
+                                        <p>当我们混在一起 夏日泳池版</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </main>
+            </section>
+            <footer id="footer">到底了！┗( ▔, ▔ )┛</footer>
+        </div>
+    </div>
+    <div class="scrollBar"></div>
+    <script src="js/transform.min.js"></script>
+    <script src="js/index.min.js"></script>
+</body>
+</html>
